@@ -17,12 +17,11 @@ Ce projet s'inscrit dans le cadre de la campagne électorale pour l'élection du
 ### 📦 Dépendances Principales du Projet
 
 #### Application Mobile (Flutter)
-- [http](https://pub.dev/packages/http) / [dio](https://pub.dev/packages/dio) : Gestion des requêtes HTTP/REST vers l'API Laravel.
-- [flutter_bloc](https://pub.dev/packages/flutter_bloc) / [provider](https://pub.dev/packages/provider) : Gestion d'état (*State Management*) réactive.
+- [http](https://pub.dev/packages/http) : Gestion des requêtes HTTP/REST vers l'API Laravel.
+- [provider](https://pub.dev/packages/provider) : Gestion d'état (*State Management*) réactive.
 - [shared_preferences](https://pub.dev/packages/shared_preferences) : Stockage local léger (tokens d'authentification, préférences).
 - [sqflite](https://pub.dev/packages/sqflite) : Base de données locale SQLite pour le mode hors-ligne (ex: cache de la carte de membre).
 - [qr_flutter](https://pub.dev/packages/qr_flutter) : Génération et affichage du QR Code pour la carte de membre numérique.
-- [firebase_core](https://pub.dev/packages/firebase_core) & [firebase_messaging](https://pub.dev/packages/firebase_messaging) : Réception des notifications push.
 - [url_launcher](https://pub.dev/packages/url_launcher) : Ouvertures de liens externes, appels directs et redirections Mobile Money.
 - [cached_network_image](https://pub.dev/packages/cached_network_image) : Mise en cache des images (photos de profil, illustrations des actualités).
 - [intl](https://pub.dev/packages/intl) : Formatage des dates et monnaies (FCFA).
